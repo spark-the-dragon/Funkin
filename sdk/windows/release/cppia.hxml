@@ -1,0 +1,187 @@
+
+-cp .haxelib/lime/git/src
+-cp .haxelib/flixel-addons/git
+-D flixel-addons=4.0.1
+-cp .haxelib/haxeui-flixel/git
+-D haxeui-flixel=1.7.0
+-D haxeui
+-cp .haxelib/haxeui-core/git
+-D haxeui-core=1.7.0
+--macro polymod.hscript._internal.PolymodFinalMacro.locateAllFinals()
+--macro addGlobalMetadata('', '@:build(polymod.hscript._internal.PolymodBaseClassMacro.buildBaseClass())')
+-cp .haxelib/polymod/git
+-D polymod=2.0.0
+-cp .haxelib/flixel-animate/git/src
+-D flixel-animate=1.5.0
+-cp .haxelib/flixel/git
+-D flixel=6.1.2
+-cp .haxelib/json2object/git/src
+-D json2object=3.11.0
+-cp .haxelib/hxjsonast/git/src
+-D hxjsonast=1.1.0
+-cp .haxelib/jsonpatch/1,1,0
+-D jsonpatch=1.1.0
+-cp .haxelib/jsonpath/git
+-D jsonpath=1.1.0
+-D thx_core
+-cp .haxelib/thx,core/git/src
+-D thx.core=0.44.0
+-D thx_semver
+-cp .haxelib/thx,semver/git/src
+-D thx.semver=0.2.2
+--macro nullSafety('hxvlc')
+--macro hxvlc.util.macros.CheckMacro.run()
+-cp .haxelib/hxvlc/git/source
+-D hxvlc=2.3.1
+--macro lime._internal.macros.DefineMacro.run()
+--macro haxe.macro.Compiler.addMetadata("@:autoBuild(lime._internal.macros.AssetsMacro.embedBytes())", "haxe.io.Bytes")
+-cp .haxelib/lime/git/src
+-D lime=8.3.1
+-cp .haxelib/openfl/git/src
+-D openfl=9.5.0
+-cp .haxelib/hxdiscord_rpc/1,3,0
+-D hxdiscord_rpc=1.3.0
+-cp .haxelib/hxcpp/git
+-D hxcpp=4.3.0
+--macro hx.concurrent.internal.Macros.configureNullSafety()
+--macro hx.concurrent.internal.Macros.addDefines()
+-cp .haxelib/haxe-concurrent/git/src
+-D haxe-concurrent=5.1.5
+-cp .haxelib/newgrounds/git/lib/Source
+-D newgrounds=2.0.3
+-cp .haxelib/funkin,vis/git/src
+-D funkin.vis=0.0.1
+-cp .haxelib/grig,audio/git/src
+-D grig.audio=0.0.5
+-cp .haxelib/tink_core/1,26,0/src
+-D tink_core=1.26.0
+-cp .haxelib/flxpartialsound/git/src
+-D FlxPartialSound=0.1.0
+-cp source
+-cp .haxelib/hxvlc/git/source
+-D HARDCODED_CREDITS
+-D funkin=0.8.7
+-D HXCPP_GC_GENERATIONAL
+-D NO_CENSOR_EXPLETIVES
+-D disable_preload_default_library=0
+-D NO_FEATURE_MOBILE_WEBVIEW
+-D haxeui_dont_impose_base_class
+-D NO_REDIRECT_ASSETS_FOLDER
+-D FEATURE_OPEN_URL
+-D FEATURE_HAXEUI
+-D lime_threads
+-D haxeui_no_mouse_reset
+-D lime-harfbuzz
+-D openfl_pool_events
+-D hscriptPos
+-D tools=8.3.1
+-D HXCPP_CHECK_POINTER
+-D POLYMOD_CPPIA
+-D FEATURE_CHART_EDITOR
+-D NO_FEATURE_TOUCH_CONTROLS
+-D HXCPP_STACK_LINE
+-D NAPE_RELEASE_BUILD
+-D NO_FEATURE_NEWGROUNDS_AUTOLOGIN
+-D lime-cffi
+-D NO_FEATURE_NEWGROUNDS_TESTING_MEDALS
+-D FEATURE_DEBUG_DISPLAY
+-D FEATURE_MULTITHREADING
+-D NO_EXCLUDE_ARMV7
+-D POLYMOD_MOD_METADATA_FILE=_polymod_meta.json
+-D POLYMOD_DISABLE_WEB_PRELOAD
+-D FEATURE_DISCORD_RPC
+-D NO_FEATURE_COMPRESSED_TEXTURES
+-D native
+-D openfl-native
+-D FEATURE_LOST_FOCUS_VOLUME
+-D NO_FEATURE_NEWGROUNDS_DEBUG
+-D FEATURE_VIDEO_SUBTITLES
+-D FLX_NO_FOCUS_LOST_SCREEN
+-D NO_EMBED_ASSETS
+-D NO_FEATURE_DEBUG_FILE_LOGGING
+-D FEATURE_HIGH_DPI
+-D FEATURE_CAMERA_EDITOR
+-D FEATURE_LAG_ADJUSTMENT
+-D lime-miniaudio
+-D NO_FEATURE_MOBILE_ADVERTISEMENTS
+-D PRELOAD_ALL
+-D FEATURE_NEWGROUNDS
+-D NO_FEATURE_HAPTICS
+-D NO_FEATURE_RESULTS_DEBUG
+-D NO_VERBOSE_ASSET_CACHE
+-D NO_FEATURE_MOBILE_IAR
+-D openfl-enable-handle-error
+-D FEATURE_FUNKVIS
+-D FEATURE_CPPIA
+-D FEATURE_FILE_DROP
+-D NO_TESTING_ADS
+-D NO_GITHUB_BUILD
+-D FEATURE_ANIMATION_EDITOR
+-D UNLOCK_EVERYTHING
+-D HXCPP_STACK_TRACE
+-D FLX_NO_DEBUG
+-D POLYMOD_APPEND_FOLDER=_append
+-D openfl-funkin
+-D FEATURE_PARTIAL_SOUNDS
+-D POLYMOD_SCRIPT_CLASS_EXT=.hx,.hxc,.hscript
+-D no-compilation
+-D FEATURE_VIDEO_PLAYBACK
+-D lime-native
+-D FEATURE_ONE_CLICK_INSTALL
+-D NO_FEATURE_MOBILE_IAP
+-D FEATURE_POLYMOD_MODS
+-D FEATURE_SCREENSHOTS
+-D analyzer-optimize
+-D message.reporting=pretty
+-D FEATURE_NAUGHTYNESS
+-D NO_FEATURE_GHOST_TAPPING
+-D POLYMOD_ARCHIVE_MOD_EXT=.zip,.fnfmod
+-D NO_FEATURE_MACOS_GESTURES
+-D POLYMOD_MOD_ICON_FILE=_polymod_icon.png,_polymod_icon.jpg,_polymod_icon.gif,_polymod_icon.webp
+-D FEATURE_LOG_TRACE
+-D lime_disable_assets_version
+-D lime-funkin
+-D NO_FEATURE_DEBUG_FUNCTIONS
+-D lime-cairo
+-D FEATURE_NEWGROUNDS_EVENTS
+-D lime-opengl
+-D NO_FEATURE_MOBILE_AGESIGNALS
+-D POLYMOD_MERGE_FOLDER=_merge
+-D FEATURE_NATIVE_CRASH_HANDLER
+-D FEATURE_STAGE_EDITOR
+-D FEATURE_DEBUG_MENU
+-D NO_FEATURE_TOUCH_HERE_TO_PLAY
+-D windows
+-D desktop
+--macro haxe.macro.Compiler.addGlobalMetadata("hxvlc", "@:hscriptBaseCreated", true, true, false)
+--macro haxe.macro.Compiler.addGlobalMetadata("hxdiscord_rpc", "@:hscriptBaseCreated", true, true, false)
+--macro haxe.macro.Compiler.addGlobalMetadata("hxdiscord_social_sdk", "@:hscriptBaseCreated", true, true, false)
+--macro haxe.macro.Compiler.addGlobalMetadata("grig.audio.cpp", "@:hscriptBaseCreated", true, true, false)
+--macro haxe.macro.Compiler.addGlobalMetadata("extension", "@:hscriptBaseCreated", true, true, false)
+--macro haxe.macro.Compiler.addGlobalMetadata("funkin.api.discord", "@:hscriptBaseCreated", true, true, false)
+--macro haxe.macro.Compiler.addGlobalMetadata("funkin.external", "@:hscriptBaseCreated", true, true, false)
+--macro haxe.macro.Compiler.addGlobalMetadata("funkin.mobile.util", "@:hscriptBaseCreated", true, true, false)
+--macro haxe.macro.Compiler.addGlobalMetadata("funkin.modding.install", "@:hscriptBaseCreated", true, true, false)
+-dce no
+--macro include('funkin', true, ['funkin.mobile.*', 'funkin.ui.debug.anim.*', 'funkin.ui.debug.charting.*', 'funkin.ui.debug.stageeditor.*', 'funkin.ui.haxeui.*'])
+--macro include('funkin.ui.debug.anim')
+--macro include('funkin.ui.debug.charting')
+--macro include('funkin.ui.debug.stage')
+--macro include('funkin.ui.debug.stageeditor')
+--macro include('funkin.ui.debug.cameraeditor')
+--macro include('funkin.ui.haxeui')
+--macro include('haxe.ui.backend.flixel.components')
+--macro include('haxe.ui.core')
+--macro include('haxe.ui.components')
+--macro include('haxe.ui.containers')
+--macro include('haxe.ui.containers.dialogs')
+--macro include('haxe.ui.containers.menus')
+--macro include('haxe.ui.containers.properties')
+--macro include('animate')
+--macro include('openfl')
+--macro include('lime', true, ['lime.tools.*', 'lime._internal.*'])
+--macro include('flixel', true, [ 'flixel.addons.editors.spine.*', 'flixel.addons.nape.*', 'flixel.system.macros.*', 'flixel.addons.tile.FlxRayCastTilemap' ])
+--macro addMetadata('@:build(funkin.util.macro.FlxMacro.buildFlxSprite())', 'flixel.FlxSprite')
+--remap flash:openfl
+--macro flixel.system.macros.FlxDefines.run()
+Main
